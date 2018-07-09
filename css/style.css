@@ -1,0 +1,167 @@
+.flex_container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F0EAD6;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 80%;
+  height: 100%;
+  color: inherit;
+  font-family: tahoma;
+  font-size: 0.9em;
+  background-color: #F0EAD6;
+}
+
+header {
+  /* border-style: solid; */
+  background-color: #87CEFA;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  border: dashed;
+  border-color: navy;
+}
+
+footer {
+  /* border-style: solid; */
+  height: 100%;
+  width: 100%;
+}
+
+.column {
+  background-color:	#87CEFA;
+  width:30.5%;
+  float:left;
+  margin:10px 10px;
+  border: solid;
+  text-align: center;
+  padding: auto;
+  min-height: 175px;
+}
+
+.footer_title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: underline;
+}
+
+.main_text {
+  font-style: italic;
+  font-weight: bold;
+  width: 80%;
+  margin: 2% 12.5%;
+}
+
+.filler_text {
+  width: 80%;
+  margin: 2% 12.5%;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.logo {
+  width: 80%;
+  border: solid;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 1%;
+  background-color: ivory;
+  padding-bottom: 1%;
+}
+
+.logo img {
+  height: 20%;
+  width: 20%;
+  border: dashed;
+  margin: 0 auto;
+}
+
+.title {
+  margin: 0 auto;
+  font-family: tahoma;
+  font-weight: bold;
+  text-align: center;
+  font-size: 3em;
+}
+
+.subtitle {
+  margin: 0 auto;
+  font-family: tahoma;
+  text-align: center;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+
+img {
+  display: block;
+  margin: auto;
+  width: 55%;
+  /*float: left;*/
+}
+
+.step {
+  text-align: center;
+  font-size: 1.5em;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+}
+
+.navigation {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.navigation li {
+  display: inline;
+  padding: 2%;
+}
+
+@media only screen and (max-width: 750px) {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .logo img {
+    height: 60%;
+    width: 60%;
+  }
+
+  .column {
+    float: none;
+    width: 100%;
+    min-height: 150px;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  img {
+    width: 40%;
+    height: 40%;
+  }
+
+  .logo img {
+    height: 20%;
+    width: 20%;
+  }
+}
