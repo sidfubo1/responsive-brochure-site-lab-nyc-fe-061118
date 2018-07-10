@@ -48,7 +48,7 @@ footer {
   border: solid;
   text-align: center;
   padding: auto;
-  min-height: 175px;
+  min-height: 249.46px;
   border: dashed;
   border-color: #112D32;
   color: ivory;
@@ -57,6 +57,11 @@ footer {
 .column a {
   text-decoration: underline;
   color: #88BDBC;
+}
+
+.column p {
+  word-wrap: break-word;
+  margin: 10% 5%;
 }
 
 .footer_title {
@@ -85,7 +90,7 @@ a {
 }
 
 .logo {
-  width: 80%;
+  width: 100%;
   border: solid;
   background-position: center;
   background-size: cover;
